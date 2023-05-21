@@ -1,0 +1,204 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color: black;
+    height: 100vh;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: transform 0.3s ease-in;
+   
+}
+.sidebar-nav{
+    padding: 72px;
+   
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 25px;
+    font-weight: bold;
+   
+    
+}
+.sidebar nav li a {
+    text-decoration:none;
+    color: rgb(254, 249, 249);
+}
+.main{
+    /* background-color: yellow; */
+    width:85vw;
+}
+.container{
+    display: flex;
+}
+.info-container{
+    /* background-color: greenyellow; */
+    height:58vh;
+    width:80vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    width: 18vw;
+    padding-left: 300px;
+    height: 58vh;
+}
+.devInfo{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Source Code Pro', monospace;
+}
+.hello{
+  font-size: 65px;
+}
+.name{
+font-size: 52px;
+font-weight: bold;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.about{
+ font-size: 25px;
+}
+.moreabout{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 34px;
+}
+.btn {
+  padding: 6px 10px;
+  border-radius: 7px;
+  color:white;
+  background-color: rgb(245, 130, 130);
+  font-weight: bold;
+  font-size: 19px;
+  margin: 0 3 px;
+  cursor: pointer;
+}
+.btn:hover{
+    background-color:white;
+    color: rgb(245, 130, 130);
+}
+.btn-sm{
+    font-size: 15px;
+}
+.contactform{
+   text-align: center;
+   padding-top: 100px;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-weight: bold;
+   border-radius: 10px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 50px;
+}
+.contactform div{
+    padding-top: 30px;
+    
+}
+.contactform div input{
+    border-radius: 5px;
+    font-size: small;
+    height: 20px;
+}
+
+.form-text{
+    color: rgb(52, 51, 51);
+    font-weight: normal;
+    font-size: small;
+}
+.topic{
+    padding-top: 30px;
+    margin: 20px;
+}
+.topic h2{
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.blog-container h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 20px; 
+}
+.topic p{
+    font-family: 'Source Code Pro', monospace;
+}
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px; 
+}
+.intro h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 12px; 
+}
+.intro p{
+    font-family: 'Source Sans Pro', sans-serif; 
+    margin: 12px;
+}
+.skills{
+    width: 200px;
+    height: 8px;
+    border:2px solid black;
+}
+.skills-container{
+    margin:12px;
+}
+.skill-item{
+    
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+   
+}
+.hundred{
+    width:265px;
+   background-color: green;
+}
+.fifty{
+    width:132px;
+    background-color: yellow;
+}
+.t5{
+    width:75px;
+    background-color: red;
+
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    left: 110px;
+    top: 10px;
+}
+.cross{
+    /* margin-left: 100px; */
+}
+.sidebarGo{
+  transition: translate(-443px,0px);
+  position:absolute;
+}
+
+@media (max-width:1615px){
+    *{
+        /* background-color: red; */
+    }
+    /* .sidebar{ */
+        
+            /* transform: translate(-443px,0px); */
+            /* position: absolute; */
+        
+    }
